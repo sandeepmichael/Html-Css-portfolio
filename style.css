@@ -1,0 +1,54 @@
+header {
+    border: 1px solid brown;
+    background-color: aliceblue;
+    width: auto;
+    padding: 10px;
+    border-radius: 2px;
+}
+/* body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+} */
+section{
+    display: flex;
+}
+ main {
+    margin: 0;
+    padding: 5px;
+    /* float: left; */
+    width: 60%;
+
+    background-color: lightgray;
+ }
+ main p{
+    font-size: large;
+    font-weight: 600;
+ }
+ label {
+    color: blueviolet;
+ }
+ img {
+    border-radius: 50%;
+    width: 30%;
+    height: 200px;
+ }
+  aside {
+ 
+     width: 40%;
+    padding-left:  6px;
+   color: rgb(226, 233, 236);
+    font-style: italic;
+    background-color: rgb(34, 68, 95);
+  }
+  footer {
+     
+    width: 100%;
+    position: relative;
+    height: 14vh;
+    text-align: center;
+     margin-top: 10px; 
+    background-color: DarkSalmon;
+    color: white;
+  }
